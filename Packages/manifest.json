@@ -1,4 +1,13 @@
 {
+  "scopedRegistries": [
+    {
+      "name": "npmjs",
+      "url": "https://registry.npmjs.org/",
+      "scopes": [
+        "io.extendreality"
+      ]
+    }
+  ],
   "dependencies": {
     "com.unity.collab-proxy": "1.2.16",
     "com.unity.ext.nunit": "1.0.0",
