@@ -19,6 +19,8 @@
     "com.unity.timeline": "1.1.0",
     "com.unity.ugui": "1.0.0",
     "com.unity.xr.legacyinputhelpers": "2.0.6",
+    "io.extendreality.tilia.camerarigs.trackedalias.unity": "1.0.7",
+    "io.extendreality.tilia.camerarigs.unityxr": "1.0.9",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
