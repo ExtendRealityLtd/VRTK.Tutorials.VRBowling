@@ -20,6 +20,8 @@ This tutorial covers the basics of getting a VR camera working within Unity and 
 
 ## Getting Started
 
+Follow the [Making A VR Bowling Game] tutorial to build this project yourself in an empty Unity project or follow the instructions below to download the completed project.
+
 ### Downloading the project
 
 * Download this project repository to your local machine using *one* of the following methods:
@@ -65,6 +67,7 @@ These materials are not sponsored by or affiliated with Unity Technologies or it
 
 [VRTK-Image]: https://user-images.githubusercontent.com/1029673/40060519-bb122e8c-584e-11e8-8402-ca168b327671.png
 [Unity]: https://unity3d.com/
+[Making A VR Bowling Game]: Documentation/Tutorials/MakingAVRBowlingGame/README.md
 
 [License-Badge]: https://img.shields.io/github/license/ExtendRealityLtd/VRTK.svg
 [Backlog-Badge]: https://img.shields.io/badge/project-backlog-78bdf2.svg
