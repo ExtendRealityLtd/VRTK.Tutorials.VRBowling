@@ -85,7 +85,7 @@ Now make a copy of the `LeftBumper` GameObject and rename the copy to be `RightB
 
 ![Create Lane Bumper GameObjects](assets/images/CreateLaneBumperGameObjects.jpg)
 
-> [see commit #25e031e](https://github.com/ExtendRealityLtd/VRTK.Tutortials.VRBowling/commit/25e031e614346e3b88aaa5295b03f64443e1872f)
+> [see commit #25e031e](https://github.com/ExtendRealityLtd/VRTK.Tutorials.VRBowling/commit/25e031e614346e3b88aaa5295b03f64443e1872f)
 
 ### Step 4
 
@@ -139,7 +139,7 @@ To turn our `BowlingPin` GameObject into a prefab, simply drag and drop the `Bow
 
 ![Create Bowling Pin Prefab](assets/images/CreateBowlingPinPrefab.jpg)
 
-> [see commit #292a11e](https://github.com/ExtendRealityLtd/VRTK.Tutortials.VRBowling/commit/292a11ed95ef5208427753fc5e5a0a9a62205f07)
+> [see commit #292a11e](https://github.com/ExtendRealityLtd/VRTK.Tutorials.VRBowling/commit/292a11ed95ef5208427753fc5e5a0a9a62205f07)
 
 ### Step 6
 
@@ -176,7 +176,7 @@ Now drag and drop `10` bowling pin prefabs into this new `Pins` GameObject and s
 
 ![Layout Bowling Pin Prefabs](assets/images/LayoutBowlingPinPrefabs.jpg)
 
-> [see commit #2738635](https://github.com/ExtendRealityLtd/VRTK.Tutortials.VRBowling/commit/2738635d17179c4121aee434a8dbd4862cd9f2bb)
+> [see commit #2738635](https://github.com/ExtendRealityLtd/VRTK.Tutorials.VRBowling/commit/2738635d17179c4121aee434a8dbd4862cd9f2bb)
 
 ### Step 7
 
@@ -188,7 +188,7 @@ We're now going to start adding some VR enabled functionality to the scene. The 
 
 Switch back to the Unity software and wait for it to finish importing the added package.
 
-> [see commit #3084c60](https://github.com/ExtendRealityLtd/VRTK.Tutortials.VRBowling/commit/3084c60f14f9824a9f591c2e1c917f2660cb94ee)
+> [see commit #3084c60](https://github.com/ExtendRealityLtd/VRTK.Tutorials.VRBowling/commit/3084c60f14f9824a9f591c2e1c917f2660cb94ee)
 
 ### Step 8
 
@@ -218,7 +218,7 @@ A minimal example ends up looking like this:
 }
 ```
 
-> [see commit #dccf96a](https://github.com/ExtendRealityLtd/VRTK.Tutortials.VRBowling/commit/dccf96a4e5cc6b52fcb3ac42195dcd8493bd5f49)
+> [see commit #dccf96a](https://github.com/ExtendRealityLtd/VRTK.Tutorials.VRBowling/commit/dccf96a4e5cc6b52fcb3ac42195dcd8493bd5f49)
 
 ### Step 9
 
@@ -235,7 +235,7 @@ Switch back to the Unity software and wait for it to finish importing the added 
 
 > Full installation instructions for these packages can be found at the repository home pages at [Tilia.CameraRigs.UnityXR] and [Tilia.CameraRigs.TrackedAlias.Unity].
 
-> [see commit #e5c1053](https://github.com/ExtendRealityLtd/VRTK.Tutortials.VRBowling/commit/e5c105342a3fe75da60ff6e75ada00be93902128)
+> [see commit #e5c1053](https://github.com/ExtendRealityLtd/VRTK.Tutorials.VRBowling/commit/e5c105342a3fe75da60ff6e75ada00be93902128)
 
 ### Step 10
 
@@ -254,7 +254,7 @@ We also need to move the position of our `CameraRigs.TrackedAlias` GameObject so
 
 ![Set Position Of Tracked Alias](assets/images/SetPositionOfTrackedAlias.jpg)
 
-> [see commit #f7b5fe1](https://github.com/ExtendRealityLtd/VRTK.Tutortials.VRBowling/commit/f7b5fe1331550c9a4a43698b0218a27227e1c138)
+> [see commit #f7b5fe1](https://github.com/ExtendRealityLtd/VRTK.Tutorials.VRBowling/commit/f7b5fe1331550c9a4a43698b0218a27227e1c138)
 
 ### Step 11
 
@@ -278,7 +278,7 @@ Drag and drop those two items into the Unity Scene.
 
 ![Drag And Drop Controller Mappings Into Scene](assets/images/DragAndDropControllerMappingsIntoScene.jpg)
 
-> [see commit #a094259](https://github.com/ExtendRealityLtd/VRTK.Tutortials.VRBowling/commit/a094259dfd11d578097af7c03131945627d19ddc)
+> [see commit #a094259](https://github.com/ExtendRealityLtd/VRTK.Tutorials.VRBowling/commit/a094259dfd11d578097af7c03131945627d19ddc)
 
 ### Step 12
 
@@ -296,7 +296,7 @@ Expand the `Input.UnityInputManager.OpenVR.LeftController -> Input Actions -> Le
 
 > Do the same with the right controller.
 
-> [see commit #d0f09d0](https://github.com/ExtendRealityLtd/VRTK.Tutortials.VRBowling/commit/d0f09d00d696528ab26a6dc59f413a7e553e4d7e)
+> [see commit #d0f09d0](https://github.com/ExtendRealityLtd/VRTK.Tutorials.VRBowling/commit/d0f09d00d696528ab26a6dc59f413a7e553e4d7e)
 
 ### Step 13
 
@@ -338,7 +338,7 @@ To update these settings, select the `Interactions.Interactable_Ball` GameObject
 
 ![Update Interactable Ball Parameters](assets/images/UpdateInteractableBallParameters.jpg)
 
-> [see commit #ecb255c](https://github.com/ExtendRealityLtd/VRTK.Tutortials.VRBowling/commit/ecb255c9203f0bccb0f79beae8cefaa28c8faba7)
+> [see commit #ecb255c](https://github.com/ExtendRealityLtd/VRTK.Tutorials.VRBowling/commit/ecb255c9203f0bccb0f79beae8cefaa28c8faba7)
 
 ### Step 14
 
@@ -348,7 +348,7 @@ You may notice that the pins seem a little strong and the ball has little effect
 
 Open the `BowlingPin` prefab and change the `Mass` property on the `Rigidbody` component to a smaller number such as `0.4`.
 
-> [see commit #91ce884](https://github.com/ExtendRealityLtd/VRTK.Tutortials.VRBowling/commit/91ce884188755f6818feda73a4949897447cc0d7)
+> [see commit #91ce884](https://github.com/ExtendRealityLtd/VRTK.Tutorials.VRBowling/commit/91ce884188755f6818feda73a4949897447cc0d7)
 
 ### Done
 
@@ -359,7 +359,7 @@ The game is extremely simple at the moment with no way of resetting the pins or 
 ![Getting A Strike](assets/images/GettingAStrike.jpg)
 
 [Unity]: https://unity3d.com/
-[Bowling Pin mesh]: https://github.com/ExtendRealityLtd/VRTK.Tutortials.VRBowling/blob/master/Assets/Models/BowlingPin.fbx
+[Bowling Pin mesh]: ../../../Assets/Models/BowlingPin.fbx
 [Unity Package Manager]: https://docs.unity3d.com/Manual/upm-ui.html
 [NPMJS]: https://www.npmjs.com/
 [Project-Manifest]: https://docs.unity3d.com/Manual/upm-manifestPrj.html
