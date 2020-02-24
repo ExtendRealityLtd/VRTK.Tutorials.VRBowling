@@ -17,6 +17,11 @@ The outcome of this tutorial is to teach the basics of how to set up a Unity sce
 ## Prerequisites
 
 * Create a new empty [Unity] project in Unity 2019.2.18f1 (or above).
+* Ensure `Virtual Reality Supported` is checked:
+  * In the Unity software select `Main Menu -> Edit -> Project Settings` to open the `Project Settings` window.
+  * Select `Player` from the left hand menu in the `Project Settings` window.
+  * In the `Player` settings panel expand `XR Settings`.
+  * In `XR Settings` ensure the `Virtual Reality Supported` option is checked.
 
 ## Let's Start
 
@@ -43,7 +48,7 @@ Apply the `Floor` material to the `Floor` GameObject.
 
 Now let's create a simple bowling alley lane. To start with, let's create an empty GameObject that can hold our lane GameObjects.
 
-Create a new `Empty` GameObject by selecting `Main Menu -> GameObjet -> Create Empty` and ensure the `Transform` properties are defaulted to `0` for position and rotation, along with a uniform scale of `1`.
+Create a new `Empty` GameObject by selecting `Main Menu -> GameObject -> Create Empty` and ensure the `Transform` properties are defaulted to `0` for position and rotation, along with a uniform scale of `1`.
 
 Rename the new `GameObject` to `Lane`.
 
@@ -145,9 +150,9 @@ To turn our `BowlingPin` GameObject into a prefab, simply drag and drop the `Bow
 
 We can now layout our bowling pin prefab into the standard ten pin formation. Let's start by creating an empty GameObject container to hold all of our pins.
 
-Create a new child `Empty` GameObject by first selecting the `Lane` GameObject in the Unity Hierarchy then selecting `Main Menu -> GameObjet -> Create Empty Child` and then change the `Transform` properties to:
+Create a new child `Empty` GameObject by first selecting the `Lane` GameObject in the Unity Hierarchy then selecting `Main Menu -> GameObject -> Create Empty Child` and then change the `Transform` properties to:
 
-* Position: `X = 0, Y = 0.52, Z = 0`
+* Position: `X = 0, Y = 0.52, Z = 6`
 
 Rename the new `GameObject` to `Pins`.
 
@@ -282,7 +287,7 @@ Drag and drop those two items into the Unity Scene.
 
 ### Step 12
 
-We need to add the Tilia Interations package to our project, which will give us the ability to add Interactors to our VR controllers. An interactor lets us touch and grab special interactable GameObjects that we can define in our scene, but for now let's just set up our Interactors by following the [Adding An Interactor] how-to guide.
+We need to add the Tilia Interactions package to our project, which will give us the ability to add Interactors to our VR controllers. An interactor lets us touch and grab special interactable GameObjects that we can define in our scene, but for now let's just set up our Interactors by following the [Adding An Interactor] how-to guide.
 
 It uses the Simulated CameraRig controls in the [Adding An Interactor] guide, but for our project we will update this to use our VR controller mappings we introduced in step 11.
 
