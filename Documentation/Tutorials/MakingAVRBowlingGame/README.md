@@ -2,9 +2,9 @@
 
 > * Level: Intermediate
 >
-> * Reading Time: 15 minutes
+> * Reading Time: 30 minutes
 >
-> * Checked with: Unity 2019.2.18f1
+> * Checked with: Unity 2019.4.19f1
 
 ## Introduction
 
@@ -16,7 +16,7 @@ The outcome of this tutorial is to teach the basics of how to set up a Unity sce
 
 ## Prerequisites
 
-* Create a new empty [Unity] project in Unity 2019.2.18f1 (or above).
+* Create a new empty [Unity] project in Unity 2019.4.19f1 (Do not use Unity 2020.1 or above for this tutorial as the Unity XR system has changed).
 * Ensure `Virtual Reality Supported` is checked:
   * In the Unity software select `Main Menu -> Edit -> Project Settings` to open the `Project Settings` window.
   * Select `Player` from the left hand menu in the `Project Settings` window.
@@ -188,8 +188,10 @@ Now drag and drop `10` bowling pin prefabs into this new `Pins` GameObject and s
 We're now going to start adding some VR enabled functionality to the scene. The first thing we need to do is include the Unity XR Legacy Input Helper package. You can do this via the [Unity Package Manager] or by simply updating the project `manifest.json` to include the following package:
 
 ```
-"com.unity.xr.legacyinputhelpers": "2.0.6"
+"com.unity.xr.legacyinputhelpers": "2.1.7"
 ```
+
+> Check to see if `2.1.7` is the latest version of the Unity XR Legacy Input Helpers in the Unity Package Manager.
 
 Switch back to the Unity software and wait for it to finish importing the added package.
 
@@ -232,9 +234,14 @@ We can now update our Unity project `manifest.json` to include our custom Unity 
 Update the `dependencies` section of our Unity project `manifest.json` to include the following lines:
 
 ```
-"io.extendreality.tilia.camerarigs.trackedalias.unity": "1.0.7",
-"io.extendreality.tilia.camerarigs.unityxr": "1.0.9",
+"io.extendreality.tilia.camerarigs.trackedalias.unity": "1.5.7",
+"io.extendreality.tilia.camerarigs.unityxr": "1.4.9",
 ```
+
+The latest versions of these dependencies are:
+
+* Tilia.CameraRigs.TrackedAlias.Unity: ![Tilia.CameraRigs.TrackedAlias.Unity Release](https://img.shields.io/github/v/release/ExtendRealityLtd/Tilia.CameraRigs.TrackedAlias.Unity.svg)
+* Tilia.CameraRigs.UnityXR: ![Tilia.CameraRigs.UnityXR Release](https://img.shields.io/github/v/release/ExtendRealityLtd/Tilia.CameraRigs.UnityXR.svg)
 
 Switch back to the Unity software and wait for it to finish importing the added packages.
 
@@ -268,8 +275,12 @@ We need to bring in some default Unity input mapping components to allow our VR 
 First, let's bring that package into our Unity project by including it in our Unity project `manifest.json`. So update the `manifest.json` to contain the additional dependency:
 
 ```
-"io.extendreality.tilia.input.unityinputmanager": "1.2.2",
+"io.extendreality.tilia.input.unityinputmanager": "1.3.16",
 ```
+
+The latest version of this dependency is:
+
+* Tilia.Input.UnityInputManager: ![Tilia.Input.UnityInputManager Release](https://img.shields.io/github/v/release/ExtendRealityLtd/Tilia.Input.UnityInputManager.svg)
 
 Switch back to the Unity software and wait for it to finish importing the added package.
 
@@ -289,7 +300,7 @@ Drag and drop those two items into the Unity Scene.
 
 We need to add the Tilia Interactions package to our project, which will give us the ability to add Interactors to our VR controllers. An interactor lets us touch and grab special interactable GameObjects that we can define in our scene, but for now let's just set up our Interactors by following the [Adding An Interactor] how-to guide.
 
-It uses the Simulated CameraRig controls in the [Adding An Interactor] guide, but for our project we will update this to use our VR controller mappings we introduced in step 11.
+It uses the Simulated CameraRig controls in the [Adding An Interactor] guide, but for our project we will update this to use our VR controller mappings we introduced in [Step 11](#Step-11).
 
 We need to update our Interactors to listen to the Grip Button on our controller to grab the object. Expand `CameraRigs.TrackedAlias` and find the `Interactions.Interactor` GameObject in the `LeftControllerAlias` and `RightControllerAlias`.
 
