@@ -294,6 +294,38 @@ InputManager:
     axis: 0
     joyNum: 0
   - serializedVersion: 3
+    m_Name: Tilia.Input.UnityInputManager_Axis1
+    descriptiveName: 
+    descriptiveNegativeName: 
+    negativeButton: 
+    positiveButton: 
+    altNegativeButton: 
+    altPositiveButton: 
+    gravity: 0
+    dead: 0.001
+    sensitivity: 1
+    snap: 1
+    invert: 0
+    type: 2
+    axis: 0
+    joyNum: 0
+  - serializedVersion: 3
+    m_Name: Tilia.Input.UnityInputManager_Axis2
+    descriptiveName: 
+    descriptiveNegativeName: 
+    negativeButton: 
+    positiveButton: 
+    altNegativeButton: 
+    altPositiveButton: 
+    gravity: 0
+    dead: 0.001
+    sensitivity: 1
+    snap: 1
+    invert: 1
+    type: 2
+    axis: 1
+    joyNum: 0
+  - serializedVersion: 3
     m_Name: Tilia.Input.UnityInputManager_Axis3
     descriptiveName: 
     descriptiveNegativeName: 
@@ -337,7 +369,7 @@ InputManager:
     dead: 0.001
     sensitivity: 1
     snap: 1
-    invert: 0
+    invert: 1
     type: 2
     axis: 4
     joyNum: 0

@@ -2,7 +2,7 @@
 
 # VR Bowling Game Tutorial
 
-> _Requires the Unity software version 2019.2.18f1 (or above)_
+> _Requires the Unity software version 2019.4.19f1 (or above)_
 
 [![License][License-Badge]][License]
 [![Backlog][Backlog-Badge]][Backlog]

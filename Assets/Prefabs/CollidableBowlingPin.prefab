@@ -43,6 +43,58 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.1, y: 0.03, z: 0.03}
   m_Center: {x: 0.465, y: 0, z: 0}
+--- !u!114 &1762738870058944388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9043499238071024318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51e5dc30037d1ec4db5acc224a423507, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pinFallThreshold: 0.02
+  toppleLife: 3
+  tries: 10
+--- !u!114 &8033553503530119978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9043499238071024318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b20687ab7424fdb9831faad0eef53ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  emittedTypes: -1
+  statesToProcess: -1
+  forwardingSourceValidity:
+    field: {fileID: 0}
+  CollisionStarted:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1762738870058944388}
+        m_MethodName: CheckTopple
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  CollisionChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  CollisionStopped:
+    m_PersistentCalls:
+      m_Calls: []
+  stopCollisionsOnDisable: 1
 --- !u!1001 &1054154239463547831
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50,6 +102,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: b91270cef1e82de42a090e1b4b8881f1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b91270cef1e82de42a090e1b4b8881f1,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b91270cef1e82de42a090e1b4b8881f1,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b91270cef1e82de42a090e1b4b8881f1,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b91270cef1e82de42a090e1b4b8881f1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -64,6 +136,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b91270cef1e82de42a090e1b4b8881f1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b91270cef1e82de42a090e1b4b8881f1,
         type: 3}
@@ -82,16 +159,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b91270cef1e82de42a090e1b4b8881f1,
         type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: b91270cef1e82de42a090e1b4b8881f1,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: b91270cef1e82de42a090e1b4b8881f1,
-        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
@@ -104,21 +171,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: b91270cef1e82de42a090e1b4b8881f1,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: b91270cef1e82de42a090e1b4b8881f1,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: b91270cef1e82de42a090e1b4b8881f1,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: b91270cef1e82de42a090e1b4b8881f1,
         type: 3}
