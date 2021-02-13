@@ -374,6 +374,10 @@ The game is extremely simple at the moment with no way of resetting the pins or 
 
 ![Getting A Strike](assets/images/GettingAStrike.jpg)
 
+### What's Up Next?
+
+* [Expanding The VR Bowling Game] - Learn how to improve this base game and give it more re-playability.
+
 [Unity]: https://unity3d.com/
 [Bowling Pin mesh]: ../../../Assets/Models/BowlingPin.fbx
 [Unity Package Manager]: https://docs.unity3d.com/Manual/upm-ui.html
@@ -387,3 +391,4 @@ The game is extremely simple at the moment with no way of resetting the pins or 
 
 [Tilia.Input.UnityInputManager]: https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputManager
 [Adding An Interactor]: https://github.com/ExtendRealityLtd/Tilia.Interactions.Interactables.Unity/blob/master/Documentation/HowToGuides/AddingAnInteractor/README.md
+[Expanding The VR Bowling Game]: ../ExpandingTheVRBowlingGame/README.md
