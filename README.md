@@ -67,7 +67,7 @@ Code released under the [MIT License][License].
 
 These materials are not sponsored by or affiliated with Unity Technologies or its affiliates. "Unity" is a trademark or registered trademark of Unity Technologies or its affiliates in the U.S. and elsewhere.
 
-[VRTK-Image]: https://user-images.githubusercontent.com/1029673/40060519-bb122e8c-584e-11e8-8402-ca168b327671.png
+[VRTK-Image]: https://raw.githubusercontent.com/ExtendRealityLtd/related-media/main/github/readme/vrtk.png
 [Unity]: https://unity3d.com/
 [Making A VR Bowling Game]: Documentation/Tutorials/MakingAVRBowlingGame/README.md
 
