@@ -2,7 +2,7 @@
 
 # VR Bowling Game Tutorial
 
-> _This has been tested on version 2019.4.28f11 of the Unity software_
+> _This has been tested on version 2019.4.28f1 of the Unity software_
 
 [![License][License-Badge]][License]
 [![Backlog][Backlog-Badge]][Backlog]
