@@ -2,13 +2,11 @@
 
 # VR Bowling Game Tutorial
 
-> _Requires the Unity software version 2019.4.19f1 (or above)_
+> _This has been tested on version 2019.4.28f11 of the Unity software_
 
 [![License][License-Badge]][License]
 [![Backlog][Backlog-Badge]][Backlog]
-[![Documentation][Academy-Badge]][Academy]
-
-[![Slack][Slack-Badge]][Slack]
+[![Discord][Discord-Badge]][Discord]
 [![Videos][Videos-Badge]][Videos]
 [![Twitter][Twitter-Badge]][Twitter]
 
@@ -73,17 +71,15 @@ These materials are not sponsored by or affiliated with Unity Technologies or it
 
 [License-Badge]: https://img.shields.io/github/license/ExtendRealityLtd/VRTK.svg
 [Backlog-Badge]: https://img.shields.io/badge/project-backlog-78bdf2.svg
-[Academy-Badge]: https://img.shields.io/badge/learn-academy-f3aeae.svg
 
-[Slack-Badge]: https://img.shields.io/badge/slack--E24663.svg?style=social&logo=slack
+[Discord-Badge]: https://img.shields.io/badge/discord--7289DA.svg?style=social&logo=discord
 [Videos-Badge]: https://img.shields.io/badge/youtube--e52d27.svg?style=social&logo=youtube
 [Twitter-Badge]: https://img.shields.io/badge/twitter--219eeb.svg?style=social&logo=twitter
 
 [License]: LICENSE.md
 [Backlog]: http://tracker.vrtk.io
-[Academy]: https://academy.vrtk.io
 
-[Slack]: http://invite.vrtk.io
+[Discord]: https://discord.com/invite/bRNS6hr
 [Videos]: http://videos.vrtk.io
 [Twitter]: https://twitter.com/VR_Toolkit
 
