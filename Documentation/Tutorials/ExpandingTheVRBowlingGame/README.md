@@ -352,7 +352,7 @@ This is the real logic behind this class, our `CheckRotation` method is how we c
   * `Mathf.Abs` gives us the absolute value of a number, meaning it will only give us the positive version of a number e.g. Mathf.Abs(-2) is 2, because -2 is not positive.
   * `Quaternion.Dot(defaultRotation, transform.localRotation)` gets us the Dot product of two Quaternions and instead of going into the maths behind this, just know this is the code that will tell us whether our pin has changed from its initial `defaultRotation` against the current `transform.localRotation`.
   * `ApproxEquals(1f, pinFallThreshold)` returns `true` if our `Dot` product of our two Quaternions is approximately `1` within the given threshold of our variable `pinFallThreshold`. So if our `Dot` product was `0.985f` then this isn't equal to `1` but it's near enough to `1` (and within our threshold) for us to consider it to be true.
-  * So this whole line basically is saying "if the positive value of our quaternion Dot product is not nearly 1 then we want to conside our pin to have fallen over". If our Dot product is not nearly `1` then it means the current rotation of the pin is far enough away from it's default standing rotation for us to think that it has been toppled.
+  * So this whole line basically is saying "if the positive value of our quaternion Dot product is not nearly 1 then we want to consider our pin to have fallen over". If our Dot product is not nearly `1` then it means the current rotation of the pin is far enough away from it's default standing rotation for us to think that it has been toppled.
 * `Invoke("HidePin", toppleLife)` simply calls the Unity `Invoke` method to call our `HidePin` method after a certain number of seconds defined by our `toppleLife` variable.
 * `else` if our original `if` condition did not succeed (because the pin hasn't toppled) then we want to do what is in the below curly braces.
 * `if (currentTries > tries)` is a nested condition to check if we've tried to check our pin topple state more times than we wanted to. If our `currentTries` is larger than the number of `tries` we actually want, then we will run the code in the nested curly braces.
@@ -615,7 +615,7 @@ Select a function to perform when the `Activated` event is emitted. For this exa
 
 ### Done
 
-Now if you play the Unity scene, you'll have the foundations of your very own bolwing game. Pick up the ball, try for a strike, if you miss then just recall the ball but if you knock them all down you can now just reset the pins.
+Now if you play the Unity scene, you'll have the foundations of your very own bowling game. Pick up the ball, try for a strike, if you miss then just recall the ball but if you knock them all down you can now just reset the pins.
 
 ![Looking At Menu Buttons](assets/images/LookingAtMenuButtons.png)
 
