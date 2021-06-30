@@ -16,6 +16,8 @@ A tutorial on how to make a VR Bowling game using the components from the VRTK s
 
 This tutorial covers the basics of getting a VR camera working within Unity and being able to interact with objects within the scene.
 
+> If you're using Unity 2020.1 or above then please refer to the [Converting To Unity 2020] tutorial.
+
 ![VR Bowling Scene](https://user-images.githubusercontent.com/36199993/74746663-af050780-525d-11ea-8eb0-6ba279fed0f7.gif)
 
 ## Getting Started
@@ -67,6 +69,7 @@ These materials are not sponsored by or affiliated with Unity Technologies or it
 
 [VRTK-Image]: https://raw.githubusercontent.com/ExtendRealityLtd/related-media/main/github/readme/vrtk.png
 [Unity]: https://unity3d.com/
+[Converting To Unity 2020]: Documentation/Tutorials/ConvertingToUnity2020/README.md
 [Making A VR Bowling Game]: Documentation/Tutorials/MakingAVRBowlingGame/README.md
 
 [License-Badge]: https://img.shields.io/github/license/ExtendRealityLtd/VRTK.svg
