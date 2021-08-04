@@ -187,8 +187,8 @@ We've now converted our VR bowling game to work with the latest Unity XR Plugin 
 [Unity XR Tilia package]: https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR
 [Unity XR Plugin Framework]: https://docs.unity3d.com/2019.3/Documentation/Manual/XR.html
 [Input System]: https://docs.unity3d.com/Manual/com.unity.inputsystem.html
-[Making A VR Bowling Game]: ../MakingAVRBowlingGame/README.md
-[Expanding The VR Bowling Game]: ../ExpandingTheVRBowlingGame/README.md
+[Making A VR Bowling Game]: ../01.MakingAVRBowlingGame/README.md
+[Expanding The VR Bowling Game]: ../02.ExpandingTheVRBowlingGame/README.md
 [Tilia.CameraRigs.XRPluginFramework.Unity]: https://github.com/ExtendRealityLtd/Tilia.CameraRigs.XRPluginFramework.Unity
 [Adding A Unity XRPluginFramework CameraRig]: https://github.com/ExtendRealityLtd/Tilia.CameraRigs.XRPluginFramework.Unity/tree/master/Documentation/HowToGuides/AddingAUnityXRPluginFrameworkCameraRig
 [Tilia.Input.UnityInputSystem]: https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputSystem

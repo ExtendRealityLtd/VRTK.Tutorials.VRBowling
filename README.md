@@ -69,8 +69,8 @@ These materials are not sponsored by or affiliated with Unity Technologies or it
 
 [VRTK-Image]: https://raw.githubusercontent.com/ExtendRealityLtd/related-media/main/github/readme/vrtk.png
 [Unity]: https://unity3d.com/
-[Converting To Unity 2020]: Documentation/Tutorials/ConvertingToUnity2020/README.md
-[Making A VR Bowling Game]: Documentation/Tutorials/MakingAVRBowlingGame/README.md
+[Converting To Unity 2020]: Documentation/Tutorials/03.ConvertingToUnity2020/README.md
+[Making A VR Bowling Game]: Documentation/Tutorials/01.MakingAVRBowlingGame/README.md
 
 [License-Badge]: https://img.shields.io/github/license/ExtendRealityLtd/VRTK.svg
 [Backlog-Badge]: https://img.shields.io/badge/project-backlog-78bdf2.svg

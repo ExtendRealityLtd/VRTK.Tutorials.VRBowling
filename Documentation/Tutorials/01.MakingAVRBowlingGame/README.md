@@ -391,4 +391,4 @@ The game is extremely simple at the moment with no way of resetting the pins or 
 
 [Tilia.Input.UnityInputManager]: https://github.com/ExtendRealityLtd/Tilia.Input.UnityInputManager
 [Adding An Interactor]: https://github.com/ExtendRealityLtd/Tilia.Interactions.Interactables.Unity/blob/master/Documentation/HowToGuides/AddingAnInteractor/README.md
-[Expanding The VR Bowling Game]: ../ExpandingTheVRBowlingGame/README.md
+[Expanding The VR Bowling Game]: ../02.ExpandingTheVRBowlingGame/README.md
