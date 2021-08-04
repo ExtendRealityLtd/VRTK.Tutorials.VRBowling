@@ -619,7 +619,7 @@ Now if you play the Unity scene, you'll have the foundations of your very own bo
 
 ![Looking At Menu Buttons](assets/images/LookingAtMenuButtons.png)
 
-[Making A VR Bowling Game]: ../MakingAVRBowlingGame/README.md
+[Making A VR Bowling Game]: ../01.MakingAVRBowlingGame/README.md
 [Unity Physics Materials]: https://docs.unity3d.com/Manual/class-PhysicMaterial.html
 [Adding A Straight Pointer]: https://github.com/ExtendRealityLtd/Tilia.Indicators.ObjectPointers.Unity/tree/master/Documentation/HowToGuides/AddingAStraightPointer/README.md
 [Adding A Click Button]: https://github.com/ExtendRealityLtd/Tilia.Interactions.SpatialButtons.Unity/tree/master/Documentation/HowToGuides/AddingAClickButton#step-3
